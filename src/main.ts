@@ -5,7 +5,7 @@ tabs.forEach((tab) => {
   tab.addEventListener("click", onTabClick);
 });
 
-function onTabClick(e) {
+function onTabClick(e: any) {
   tabs.forEach((tab) => {
     tab.children[0].classList.remove(
       "border-softRed",
